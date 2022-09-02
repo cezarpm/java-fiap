@@ -1,4 +1,3 @@
-package aula;
 
 import java.util.Scanner;
 
@@ -14,7 +13,7 @@ public class ex5 {
 		
 		temperaturaEmFahrenheit = (temperaturaEmCelcius * 1.8) + 32;
 	
-		System.out.printf("O valor em Fahrenheit é %.2f ", temperaturaEmFahrenheit);
+		System.out.printf("O valor em Fahrenheit ï¿½ %.2f ", temperaturaEmFahrenheit);
 		ler.close();
 	}
 
