@@ -12,7 +12,7 @@ public class ex2 {
 
 		areaDoQuadrado = aresta * aresta;
 
-		System.out.printf("A area do quadrado � %.2f", areaDoQuadrado);
+		System.out.printf("A area do quadrado é %.2f", areaDoQuadrado);
 		ler.close();
 	}
 }
