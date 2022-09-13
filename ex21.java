@@ -5,7 +5,9 @@ public class ex21 {
 	public static void main(String[] args) {
 		Scanner ler = new Scanner(System.in);
 
-		double valor1, valor2, opcao;
+		double valor1, valor2;
+
+		int opcao;
 
 		System.out.printf("Digite o valor 1 : ");
 		valor1 = ler.nextDouble();
@@ -21,7 +23,7 @@ public class ex21 {
 		System.out.println("5 - Fim do programa");
 
 		System.out.printf("Digite a opção: ");
-		opcao = ler.nextDouble();
+		opcao = ler.nextInt();
 
 		ler.close();
 
