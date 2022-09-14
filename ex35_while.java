@@ -28,5 +28,7 @@ public class ex35_while {
             i++;
            }
 
+           entrada.close();
+
     }
 }

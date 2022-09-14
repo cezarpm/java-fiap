@@ -35,5 +35,8 @@ public class ex36_while {
             System.out.println(v * tt);
             tt--;
         }
+
+        entrada.close();
+
     }
 }

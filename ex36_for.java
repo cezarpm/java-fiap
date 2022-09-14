@@ -26,5 +26,8 @@ public class ex36_for {
         for (int i = tt; i >= ct; i--) {
             System.out.println(v * i);
         }
+
+        entrada.close();
+
     }
 }

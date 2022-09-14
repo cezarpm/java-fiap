@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ex37_while {
+public class ex37_for {
 
     public static void main(String[] args) {
 
@@ -9,24 +9,15 @@ public class ex37_while {
     int i = 1;
     int j;
 
-    while (i <= 20) {
-
-        j = 1;
-        
-        while (j <= 10){
+    for(i = 1;i <= 20; i++ ){
+        for(j = 1; j <= 10; j++){
             System.out.println(i + " x " + j + " = " + (i * j));
-            j++;
+           
         }
-
         System.out.print("Digite algo para continuar ");
         entrada.next();
-
-        i++;
-        j = 1;
     }
 
     entrada.close();
-
-
     }
 }

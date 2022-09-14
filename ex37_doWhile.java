@@ -22,5 +22,8 @@ public class ex37_doWhile {
         j = 1;
     } while (i <= 20);
 
+    entrada.close();
+
+
     }
 }

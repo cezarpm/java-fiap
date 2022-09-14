@@ -1,4 +1,4 @@
-public class ex37_doWhile {
+public class ex38_for {
 
     public static void main(String[] args) {
        // Exibir a soma de 1 e 100

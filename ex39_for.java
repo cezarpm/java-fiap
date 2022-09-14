@@ -1,8 +1,7 @@
-public class ex39_while {
+public class ex39_for {
 
     public static void main(String[] args) {
-		int n, t1, t2, t3, t4, cont;
-		
+		int n, t1, t2, t3, cont;
 		
 		n = 30; 
 		t1 = 1; 
@@ -11,13 +10,12 @@ public class ex39_while {
 		System.out.printf(" %d -> %d ", t1, t2);
 		cont = 3;
 		
-		while (cont <= n) {
+		for (cont = 3; cont <= n; cont++) {
 		    t3 = t1 + t2;
 		    System.out.printf("-> %d ", t3);
 		    t1 = t2; 
 		    t2 = t3;
-		    cont++; 
 		}
 
-    }
+	}
 }

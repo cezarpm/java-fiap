@@ -26,6 +26,9 @@ public class ex36_doWhile {
             System.out.println(v * tt);
             tt--;
         } while (tt >= ct);
+
+        entrada.close();
+
         
     }
 }
